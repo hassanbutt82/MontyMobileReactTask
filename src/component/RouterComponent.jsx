@@ -1,26 +1,21 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import ListUserComponent from "./user/ListUserComponent";
-import AddUserComponent from "./user/AddUserComponent";
-import EditUserComponent from "./user/EditUserComponent";
+import ListClientComponent from "./user/ListClientComponent";
+import AddClientComponent from "./user/AddClientComponent";
+import EditClientComponent from "./user/EditClientComponent";
 import React from "react";
+import LoginComponent from "./user/LoginComponent";
 
 const AppRouter = () => {
     return(
-        <div style={style}>
             <Router>
                     <Switch>
-                        <Route path="/" exact component={ListUserComponent} />
-                        <Route path="/users" component={ListUserComponent} />
-                        <Route path="/add-user" component={AddUserComponent} />
-                        <Route path="/edit-user" component={EditUserComponent} />
+                        <Route path="/" exact component={LoginComponent} />
+                        <Route path="/list-client" component={ListClientComponent} />
+                        <Route path="/add-client" component={AddClientComponent} />
+                        <Route path="/edit-client" component={EditClientComponent} />
                     </Switch>
             </Router>
-        </div>
     )
-}
-
-const style={
-    marginTop:'20px'
 }
 
 export default AppRouter;
