@@ -45,7 +45,7 @@ class AddClientComponent extends Component{
 
                         <TextField label="Full Name" fullWidth margin="normal" name="fullName" value={this.state.fullName} onChange={this.onChange}/>
 
-                        <TextField label="Mobile Number" type="number" pattern="[0-9]*" inputmode="numeric" fullWidth margin="normal" name="mobileNumber" pattern="[0-9]*" value={this.state.mobileNumber} onChange={this.onChange}/>
+                        <TextField label="Mobile Number" type="number" pattern="[0-9]*" inputmode="numeric" fullWidth margin="normal" name="mobileNumber" value={this.state.mobileNumber} onChange={this.onChange}/>
 
                         <TextField label="Email" fullWidth margin="normal" name="email" value={this.state.email} onChange={this.onChange}/>
 
