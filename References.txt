@@ -1,0 +1,4 @@
+# Below are the links/websites
+https://www.devglan.com
+https://www.springboottutorial.com/spring-boot-react-full-stack-crud-maven-application
+https://howtodoinjava.com/spring-boot2/spring-boot-crud-hibernate/
